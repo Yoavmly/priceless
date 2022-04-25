@@ -64,3 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Installation
+
+Composer install
+
+Create DB
+Create .env according to .env.example
+Add DB to .env
+
+run php artisan migrate
+
+Replace mailhog settings in .env to mailtrap in dev environment
+
+navigate to vue folder -> execute npm install and the npm run dev
+
+add the address of the client to APP_URL in .env
+
+create .env in the vue folder, add VITE_API_BASE_URL={address of your laravel app}
