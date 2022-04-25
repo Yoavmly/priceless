@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.title {
+    @apply border-[2px] border-solid border-[#3f3f3f] p-[20px] bg-[#a0aec0] md:text-[32px] text-[20px] text-center font-bold mt-[30px] rounded-[20px]
+}
+
+
+.btn {
+    @apply  flex justify-center align-middle w-[200px] py-[15px] px-[30px] bg-[#2C3E50] text-white rounded-[5px] md:mt-5 mt-10 md:m-0 m-auto mb-10
+
+}
+
+
+.table_row {
+    @apply border-[1px] border-black border-collapse text-[14px] md:text-[20px]
+}
+
+.forum_form {
+
+    @apply border-[1px] border-solid border-[#2d3748] mt-[65px] mx-auto w-full lg:w-1/2 flex flex-col gap-[40px]
+
+}
